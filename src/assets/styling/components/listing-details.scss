@@ -1,0 +1,68 @@
+// Details page Desctop
+.details-card-container {
+  max-width: 1024px;
+  margin: 100px auto 25px;
+
+  .buttons-desc-top {
+    display: flex;
+    gap: 1rem;
+  }
+
+  #buttons-mobile {
+    display: none;
+  }
+
+  .details-card-components {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    .details-card {
+      display: grid;
+      grid-template-rows: 2fr 1fr;
+      background-color: white;
+      background-image: url('../images/img_placeholder_house@3x.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      .details-info {
+        background-color: white;
+        background-color: $background2;
+        padding: 15px;
+        .card-top {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+
+        .details-features {
+          margin: 20px 0;
+          width: 75%;
+          display: grid;
+          gap: 0.7rem;
+          grid-template-columns: 35% 25% 35%;
+        }
+        .card-content {
+          padding: 10px;
+        }
+      }
+    }
+    .recommend-list {
+      .card-item {
+        grid-template-columns: 35% 65%;
+        padding: 0.7rem;
+        margin-top: 0.7rem;
+
+        h2,
+        p {
+          font-size: 1rem;
+        }
+        h2 {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}

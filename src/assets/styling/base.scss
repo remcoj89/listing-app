@@ -1,0 +1,66 @@
+// importing fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+// remove default padding and margin
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// Basic colors
+$primary: #eb5440;
+$secondary: #4a4b4c;
+$tertiary: #c3c3c3;
+$background1: #f6f6f6;
+$background2: #ffffff;
+
+// Font colors
+$font-primary: #000000;
+$font-secondary: #4a4b4c;
+$font-hyperlink: #067bc2;
+
+// Typograpy
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: $font-primary;
+  margin: 0px;
+  padding: 0px;
+
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}
+
+p {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  color: $font-secondary;
+}
+
+a {
+  color: $font-secondary;
+  text-decoration: none;
+}
+
+.router-link-active {
+  color: $font-primary;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
