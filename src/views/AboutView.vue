@@ -3,9 +3,9 @@
     <h1>Listings</h1>
 
     <p class="about-paragraph">
-      Welcome to Listings, the ultimate home listing app! We are committed to making your search for the
-      perfect home a breeze. With our user-friendly interface and comprehensive database, finding
-      your dream home has never been easier.
+      Welcome to Listings, the ultimate home listing app! We are committed to making your search for
+      the perfect home a breeze. With our user-friendly interface and comprehensive database,
+      finding your dream home has never been easier.
     </p>
 
     <p class="about-paragraph">
@@ -29,16 +29,16 @@
     </p>
 
     <p class="about-paragraph">
-      Moreover, Listings keeps you updated with the latest real estate trends and market insights. Our
-      blog features expert advice, tips for home buyers, and neighborhood guides to help you make an
-      informed decision. We are dedicated to empowering you with knowledge and confidence throughout
-      your home buying journey.
+      Moreover, Listings keeps you updated with the latest real estate trends and market insights.
+      Our blog features expert advice, tips for home buyers, and neighborhood guides to help you
+      make an informed decision. We are dedicated to empowering you with knowledge and confidence
+      throughout your home buying journey.
     </p>
 
     <p class="about-paragraph">
       Your satisfaction is our top priority. We value your feedback and continuously strive to
-      enhance your experience on Listings. Our dedicated customer support team is always ready to assist
-      you with any inquiries or technical issues you may encounter.
+      enhance your experience on Listings. Our dedicated customer support team is always ready to
+      assist you with any inquiries or technical issues you may encounter.
     </p>
 
     <p class="about-paragraph">
