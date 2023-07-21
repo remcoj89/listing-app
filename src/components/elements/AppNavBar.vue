@@ -3,7 +3,7 @@
     <div class="nav-content">
       <!-- Link to home page -->
       <router-link :to="{ name: 'home' }">
-        <img id="company-logo" src="@/assets/images/img_logo_dtt@3x.png" alt="Logo" />
+        <img id="company-logo" src="@/assets/images/dark_logo_white_background.jpg" alt="Logo" />
       </router-link>
       <li class="nav-link">
         <router-link :to="{ name: 'home' }">Home</router-link>
